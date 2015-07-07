@@ -30,7 +30,7 @@ Cela doit vous générer des .deb que vous installez avec « dpkg -i »
 
 A ce niveau là vous pouvez voir avec netstat que votre système est en écoute sur le port TCP 4200. Vous avez donc accès à Shellinabox via **http://votreserveur:4200** ! 😀
 
-Personnellement la première fois que j’ai vu ça j’étais content mais un peu moins à l’idée de balancer mon password via HTTP. Donc la première chose à faire c’est de faire passer tout le monde en HTTP puis on s’affranchira du port 4200 en utilisant un reverse proxy. On passe donc sur la partie configuration de votre Apache/Nginx.
+Personnellement la première fois que j’ai vu ça j’étais content mais un peu moins à l’idée de balancer mon password via HTTP. Donc la première chose à faire c’est de faire passer tout le monde en HTTPS puis on s’affranchira du port 4200 en utilisant un reverse proxy. On passe donc sur la partie configuration de votre Apache/Nginx.
 
 L’URL d’accès de notre shell sera **ssh.serveur.tld**, pour l’exemple.
 
