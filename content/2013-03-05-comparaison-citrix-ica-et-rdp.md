@@ -1,9 +1,10 @@
 ---
 title: Comparaison Citrix ICA et RDP
+authors: Romain Guichard, Kevin Lefevre
 slug: comparaison-citrix-ica-et-rdp
 date_published: 2013-03-04T23:02:28.000Z
 date_updated:   2015-06-28T17:20:19.000Z
-tags: Citrix, Citrix, ICA, ICA, RDP, RDP, XenDesktop, XenDesktop
+tags: Citrix, ICA, RDP, XenDesktop
 ---
 
 
@@ -29,16 +30,12 @@ Politique HDX:
 
 Dans ce premier graphique, la vidéo est présente deux fois.
 
-___
-
 Politique HDX:
 
 - Lossy compression level: high
 - Progressive compression level: very-high
 
 [![](http://res.cloudinary.com/vsense/image/upload/v1435508418/ICA-very-high-comp-high-lossless1_orwlva.png "ICA-very-high-comp-high-lossless")](http://res.cloudinary.com/vsense/image/upload/v1435508418/ICA-very-high-comp-high-lossless1_orwlva.png)
-
-___
 
 Politique HDX:
 
@@ -54,11 +51,6 @@ Sans Wyse TCX suite, la vidéo n’est pas du tout fluide et le plug-in Flash-Pl
 
 [![](http://res.cloudinary.com/vsense/image/upload/v1435508416/RDP-Win7-2proc-1gbram-noTCX1_acom7n.png "RDP-Win7-2proc-1gbram-noTCX")](http://res.cloudinary.com/vsense/image/upload/v1435508416/RDP-Win7-2proc-1gbram-noTCX1_acom7n.png)
 
-___
-
 Avec Wyse TCX, video fluide, acceptable pour l’utilisateur mais tout de même moins qu’en ICA. Pas d’amélioration de débit.
 
 [![](http://res.cloudinary.com/vsense/image/upload/v1435508416/RDP-Win7-2proc-1gbram-TCX1_tpd8h8.png "RDP-Win7-2proc-1gbram-TCX")](http://res.cloudinary.com/vsense/image/upload/v1435508416/RDP-Win7-2proc-1gbram-TCX1_tpd8h8.png)
-
-
-

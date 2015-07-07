@@ -1,9 +1,10 @@
 ---
 title: DNS - Système de vues
+authors: Romain Guichard, Kevin Lefevre
 slug: dns-systeme-de-vues
 date_published: 2012-11-02T01:05:51.000Z
 date_updated:   2014-09-02T19:07:19.000Z
-tags: Bind, Bind, debian, debian, DNS, DNS, domaine, vues
+tags: Bind, DNS
 ---
 
 
@@ -18,40 +19,40 @@ Nous allons ici mettre en place des vues. Il s’agit en fait de deux fichiers d
 Modifions tout d’abord notre named.conf :
 
 ```
-acl "lan_hosts" {         
-  10.0.0.0/24;         
-  127.0.0.1; 
+acl "lan_hosts" {        
+  10.0.0.0/24;        
+  127.0.0.1;
 };
-acl "wan_hosts" {         
-  5.X.X.X; 
-}; 
+acl "wan_hosts" {        
+  5.X.X.X;
+};
 
 view "internal"{
 
-  match-clients{ lan_hosts; }; 
-  recursion yes; 
+  match-clients{ lan_hosts; };
+  recursion yes;
 
-  zone "archifleks.net" {                 
-    type master;                 
-    file "/etc/bind/internal/vsense.fr.zone";         
-  };         
+  zone "archifleks.net" {                
+    type master;                
+    file "/etc/bind/internal/vsense.fr.zone";        
+  };        
 
   zone "10.0.0.in-addr.arpa" {                
-    type master;                 
-    file "/etc/bind/internal/10.0.0.in-addr.arpa.zone";         
-  }; 
-}; 
+    type master;                
+    file "/etc/bind/internal/10.0.0.in-addr.arpa.zone";        
+  };
+};
 
-view "external"{ 
+view "external"{
 
   match-clients { any; };
-  allow-recursion {wan_hosts;}; 
-  allow-query-cache {wan_hosts;}; 
+  allow-recursion {wan_hosts;};
+  allow-query-cache {wan_hosts;};
 
-  zone "archifleks.net" { 
-    type master; 
-    file "/etc/bind/external/vsense.fr.zone"; 
-  }; 
+  zone "archifleks.net" {
+    type master;
+    file "/etc/bind/external/vsense.fr.zone";
+  };
 };
 
 ```

@@ -1,5 +1,6 @@
 ---
 title: Design de baie - Visio template
+authors: Kevin Lefevre
 slug: design-de-baie-visio-templates
 date_published: 2013-11-12T15:01:50.000Z
 date_updated:   2015-06-28T17:19:56.000Z
@@ -20,8 +21,5 @@ Le résultat ressemble à cela:
 
 [![Sans titre](http://res.cloudinary.com/vsense/image/upload/h_300,w_238/v1435508396/Sans-titre_tnxagp.tiff)](http://res.cloudinary.com/vsense/image/upload/h_300,w_238/v1435508396/Sans-titre_tnxagp.tiff) [![DC_TPL](http://res.cloudinary.com/vsense/image/upload/v1435508392/DC_TPL1_b0igt0.png)](http://res.cloudinary.com/vsense/image/upload/v1435508392/DC_TPL1_b0igt0.png)
 
-N’hésitez pas à l’utiliser/améliorer/modifier 😉  
+N’hésitez pas à l’utiliser/améliorer/modifier 😉
 ![](http://ludopourquoipas.files.wordpress.com/2011/09/1000px-cc-by-sa_icon-svg.png)
-
-
-

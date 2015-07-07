@@ -1,9 +1,10 @@
 ---
 title: Reduire un disque avec VMware Converter
+authors: Romain Guichard, Kevin Lefevre
 slug: reduire-un-disque-avec-vmware-converter
 date_published: 2013-04-01T16:23:10.000Z
 date_updated:   2015-06-28T17:20:24.000Z
-tags: Converter, Converter, ESX, ESX, ESXi, ESXi, partition, partition, reduire, SQL, SQL, VMware, VMware
+tags: Converter, ESXi, SQL, VMware
 ---
 
 
@@ -13,9 +14,9 @@ Une solution est de réaliser un clone de la machine virtuelle avec VMware Con
 
 Je ne vais pas détailler toute la procédure d’utilisation de Converter, la documentation étant très correcte. Avant la fin de l’assistant de conversion, avant le resumé, vous pouvez modifier les options avancées:
 
-<div class="wp-caption aligncenter" id="attachment_38" style="width: 310px">![Screenshot converter](http://res.cloudinary.com/vsense/image/upload/h_131,w_300/v1435508424/convert1_yxlxp9.png "VMware Converter")Réduire l’espace disque avec Converter
+![Screenshot converter](http://res.cloudinary.com/vsense/image/upload/h_131,w_300/v1435508424/convert1_yxlxp9.png "VMware Converter")Réduire l’espace disque avec Converter
 
-</div>Une fois la conversion exécutée, vous vous retrouvez avec un clone éteint de votre machine. Vous pouvez utiliser cette nouvelle machine telle qu’elle mais vous risquez de vous retrouver avec des problèmes de SID et de licences suivant les logiciels présents sur votre machine, attention également aux conflits DNS, Netbios et IP. Dans ce cas, utiliser sysprep.
+Une fois la conversion exécutée, vous vous retrouvez avec un clone éteint de votre machine. Vous pouvez utiliser cette nouvelle machine telle qu’elle mais vous risquez de vous retrouver avec des problèmes de SID et de licences suivant les logiciels présents sur votre machine, attention également aux conflits DNS, Netbios et IP. Dans ce cas, utiliser sysprep.
 
 Nous avons l’habitude de séparer le système et les applications sur les serveurs, dans cet exemple, j’utilisais un serveur d’impression Uniflow de Canon, qui supporte mal le clonage (problème de licence dû au changement de SID). L’application ainsi que la base étant sur un disque différent du système, pour plus de transparence, on remonte le nouveau disque sur l’ancienne machine :
 
@@ -24,7 +25,4 @@ Nous avons l’habitude de séparer le système et les applications sur les 
 - Monter le nouveau disque sur l’ancienne machine à la place de l’ancien disque.
 - Démarrer l’ancienne machine avec le nouveau disque.
 
-<div style="text-align: justify;">L’opération a fonctionnée pour un serveur SQL souvent considéré comme sensible en ce qui concerne les opérations de migration.</div>L’opération devrait également fonctionner dans le cas du disque système mais je n’ai pas eu l’occasion de tester.
-
-
-
+L’opération a fonctionnée pour un serveur SQL souvent considéré comme sensible en ce qui concerne les opérations de migration. L’opération devrait également fonctionner dans le cas du disque système mais je n’ai pas eu l’occasion de tester.

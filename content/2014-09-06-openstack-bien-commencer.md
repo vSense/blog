@@ -1,5 +1,6 @@
 ---
 title: OpenStack, bien commencer
+authors: Romain Guichard
 slug: openstack-bien-commencer
 date_published: 2014-09-06T16:30:34.000Z
 date_updated:   2014-08-29T16:54:19.000Z
@@ -27,10 +28,10 @@ OpenStack est composé de briques, chacune a un rôle précis et c’est à vous
 
 Pour Nova, j’ai parlé d’instances et non pas de VM. Il y a une raison à cela. Bien qu’il s’agisse techniquement du même type d’objet, ils n’ont pas le même but « philosophique ».
 
-Une VM est uniquement un serveur virtuel, son but est de tourner en 24/7 avec une disponibilité proche de 100%.  
+Une VM est uniquement un serveur virtuel, son but est de tourner en 24/7 avec une disponibilité proche de 100%.
  Une instance a par principe une durée de vie limitée. Elle naît puis meurt.
 
-Mais pourquoi éteindre une instance ? Et bien parce que la haute disponibilité et la scalabilité, les deux arguments historiques de la virtualisation, ne sont pas assurés par l’instance mais par un groupe d’instances. Il ne s’agit plus ici de modifier le CPU ou la RAM d’une instance à chaud mais tout simplement de créer (« launch ») une nouvelle instance préconfigurée qui s’ajoutera au cluster existant.  
+Mais pourquoi éteindre une instance ? Et bien parce que la haute disponibilité et la scalabilité, les deux arguments historiques de la virtualisation, ne sont pas assurés par l’instance mais par un groupe d’instances. Il ne s’agit plus ici de modifier le CPU ou la RAM d’une instance à chaud mais tout simplement de créer (« launch ») une nouvelle instance préconfigurée qui s’ajoutera au cluster existant.
  La pratique a montré que l’on préfère d’ailleurs repartir sur une instance vierge et la configurer en post-install à l’aide de Chef/Puppet/Salt.
 
 Les données n’étant pas liées au instances (ce ne sont que des unités de traitement), on peut les supprimer (« terminate ») sans risque. On supporte ainsi beaucoup plus facilement les montées et baisses de charge d’une application.
@@ -41,13 +42,13 @@ D’un point de vue technique, il y a une légère différence cependant. Une in
 
 Les articles de virtu de ce blog traitaient jusqu’à présent exclusivement de vSphere de VMware. Afin de ne pas être perdu avec OpenStack, je fais faire quelques parallèles (quand ce sera possible) qui permettront de mieux se repérer.
 
-**OpenStack = ESXi ?**  
- Non, OpenStack est un ensemble de logiciels, ESXi est un hyperviseur.  
-**OpenStack  = vCenter ?**  
- Non, Openstack ne crée pas de fonctions de clustering, ne fourni pas de répartition de charge etc comme le fait vCenter  
-**OpenStack  = vCloudDirector ?**  
- Oui c’est sûrement le meilleur parallèle que l’on puisse faire. Et encore…  
-** Nova = ESXi ?**  
+**OpenStack = ESXi ?**
+ Non, OpenStack est un ensemble de logiciels, ESXi est un hyperviseur.
+**OpenStack  = vCenter ?**
+ Non, Openstack ne crée pas de fonctions de clustering, ne fourni pas de répartition de charge etc comme le fait vCenter
+**OpenStack  = vCloudDirector ?**
+ Oui c’est sûrement le meilleur parallèle que l’on puisse faire. Et encore…
+** Nova = ESXi ?**
  Non, Nova n’est pas un hyperviseur, c’est lui qui gère l’hyperviseur mais celui ci peut être n’importe quoi.  Couramment on trouvera KVM, mais on peut trouver ESXi grâce aux drivers fournis par VMware ou Hyper-V.
 
 vSphere étant une grosse boite plus ou moins noir, il n’est pas possible de faire de lien entre les autres services OpenStack avec vSphere. Sachez cependant que si on trouvait le même type d’architecture chez VMware :
@@ -81,18 +82,11 @@ Swift est en revanche totalement optionnel, votre stockage peut reposer sur un s
 
 #### A propos du stockage
 
-Une instance vient par défaut avec du stockage. Ce stockage est qualifié « d’éphémère ». Ce stockage est lié à l’instance et est généralement pris directement dans le stockage de l’hyperviseur sur lequel tourne l’instance. Si vous supprimez votre instance, le stockage sera supprimé aussi. Ce stockage n’étant par définition par partagé, il ne permettra pas non plus de migration d’instance entre hyperviseurs.  
+Une instance vient par défaut avec du stockage. Ce stockage est qualifié « d’éphémère ». Ce stockage est lié à l’instance et est généralement pris directement dans le stockage de l’hyperviseur sur lequel tourne l’instance. Si vous supprimez votre instance, le stockage sera supprimé aussi. Ce stockage n’étant par définition par partagé, il ne permettra pas non plus de migration d’instance entre hyperviseurs.
  L’autre type de stockage est appelé « persistant ». Il est fourni par Cinder et s’apparente tout simplement à un disque que vous attachez à votre instance comme vous avez l’habitude de le faire avec VMware et les VMDK.
 
 ### Où commencer !
 
 Pour vous lancer dans l’aventure, rien ne vaut la doc officielle pour Ubuntu ou Debian. Faîtes attention, celle ci est mise à jour plusieurs fois par semaine 😉
 
-A l’heure où j’écris, la version la plus récente pour Icehouse stable sur Debian est [celle ci](http://docs.openstack.org/icehouse/install-guide/install/apt-debian/openstack-install-guide-apt-debian-icehouse.pdf) :
-
- 
-
- 
-
-
-
+A l’heure où j’écris, la version la plus récente pour Icehouse stable sur Debian est [celle ci](http://docs.openstack.org/icehouse/install-guide/install/apt-debian/openstack-install-guide-apt-debian-icehouse.pdf).

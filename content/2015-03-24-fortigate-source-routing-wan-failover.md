@@ -1,5 +1,6 @@
 ---
 title: Fortigate - source routing + WAN failover
+authors: Romain Guichard
 slug: fortigate-source-routing-wan-failover
 date_published: 2015-03-24T11:48:00.000Z
 date_updated:   2015-06-28T17:19:21.000Z
@@ -30,6 +31,3 @@ Pour obtenir l’effet failover, il faut ensuite créer une deuxième PBR pour l
 Ainsi avec deux PBR et deux routes par défaut, le trafic va emprunter en priorité la route par défaut associée à l’interface Outgoing de la première PBR. Si l’interface tombe et que la route par défaut n’est plus présent dans la table de routage, la première PBR ne sera plus matchée et le trafic s’acheminera par la deuxième route par défaut matchant la deuxième PBR.
 
 On a de cette manière réussie à orienter nos flux vers les sorties que l’on voulait et en même temps permis à ces flux de basculer en cas de perte d’un lien.
-
-
-
