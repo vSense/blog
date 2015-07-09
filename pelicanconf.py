@@ -11,7 +11,18 @@ PATH = 'content'
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = 'fr'
-THEME = 'pelican-sober'
+THEME = 'themes/pelican-pure'
+
+DISQUS_SITENAME = 'vsense'
+GOOGLE_ANALYTICS = 'UA-33687380-2'
+
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = ['gravatar','share_post']
+
+SUMMARY_MAX_LENGTH = 40
+
+TAGLINE = "Cloud Cloud Cloud, I'm looking for a good time !"
+PROFILE_IMAGE_URL = 'http://i.forbesimg.com/media/lists/companies/google_416x416.jpg'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -21,14 +32,15 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+#LINKS = (('Pelican', 'http://getpelican.com/'),
+#         ('Python.org', 'http://python.org/'),
+#         ('Jinja2', 'http://jinja.pocoo.org/'),
+#         ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('github-square', 'https://github.com/vSense'),
+        ('twitter-square', 'https://twitter.com/ArchiFleKs'),
+        ('twitter-square','https://twitter.com/HerrGuichard'),)
 
 DEFAULT_PAGINATION = 10
 

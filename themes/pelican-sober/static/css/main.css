@@ -65,7 +65,7 @@ header {
 .sidebar {
   display: table-cell;
   width: 25%;
-  padding: 0 20px 1em 3%;  
+  padding: 0 20px 1em 3%;
 }
 
 footer {
@@ -196,7 +196,7 @@ article.summary > div {
 
 article.full .metadata,
 article.summary .metadata {
-  padding: 1%;  
+  padding: 1%;
   font-style: italic;
   text-align: right;
 }
@@ -247,7 +247,7 @@ ol.archive li .tags
 
 .social a {}
 
-.social i { 
+.social i {
   float: left;
   margin-right: 3px;
   padding-top: 4px;
