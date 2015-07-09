@@ -14,7 +14,7 @@ Tous ceux qui ont tenté l’aventure OpenStack ont rencontré les mêmes probl�
 
 Pour adresser ce problème, plusieurs projets sont nés afin de rendre le déploiement d’OpenStack plus rapide, plus sûr et nous permettre de nous consacrer sur de vrais problèmes d’architecture.
 
-Les deux projets les plus aboutis proviennent de Canonical et SUSE. Canonical utilise son duo MAAS/JuJu alors que SUSE se sert de sa suite SUSE Cloud et de Crowbar. Ces deux outils utilisent une philosophie commune : celle de transformer rapidement n’importe quel serveur baremetal (MAAS est l’acronyme de Metal as a Service) en un nœud  disponible pour des services OpenStack.
+On peut citer Suse OpenStack Cloud de SUSE, Helion d'HP, Mirantis OpenStacke Software de Mirantis, RDO de RedHat et le combo MAAS/JuJu de Cannonical. Tous ces outils utilisent pour la plupart une philosophie commune : celle de transformer rapidement n’importe quel serveur baremetal (MAAS est l’acronyme de Metal as a Service) en un nœud  disponible pour des services OpenStack.
 
 Le but avoué est de pouvoir scaler, provisionner et automatiser toute la configuration des services d’OpenStack.
 
