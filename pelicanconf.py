@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'vSense'
 SITENAME = 'vSense'
-SITEURL = ''
+SITEURL = 'http://blog.vsense.fr'
 
 PATH = 'content'
 
@@ -39,8 +39,8 @@ AUTHOR_FEED_RSS = None
 
 # Social widget
 SOCIAL = (('github-square', 'https://github.com/vSense'),
-        ('twitter-square', 'https://twitter.com/ArchiFleKs'),
-        ('twitter-square','https://twitter.com/HerrGuichard'),)
+        ('linkedin-square', 'https://www.linkedin.com/in/kevinlefevre'),
+        ('linkedin-square', 'https://fr.linkedin.com/in/romainguichard'),)
 
 DEFAULT_PAGINATION = 10
 
