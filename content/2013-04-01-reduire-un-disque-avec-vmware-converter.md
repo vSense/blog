@@ -1,10 +1,12 @@
 ---
 title: Reduire un disque avec VMware Converter
-authors: Romain Guichard, Kevin Lefevre
+authors: Kevin Lefevre
+about_author: Kevin Lefevre est ingenieur cloud @Osones
+email: klefevre@vsense.fr
 slug: reduire-un-disque-avec-vmware-converter
 date_published: 2013-04-01T16:23:10.000Z
 date_updated:   2015-06-28T17:20:24.000Z
-tags: Converter, ESXi, SQL, VMware
+tags: Converter, ESXi, SQL, VMware, reduction, vsphere
 ---
 
 

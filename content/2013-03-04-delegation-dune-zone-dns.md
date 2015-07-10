@@ -1,10 +1,12 @@
 ---
 title: Délégation d'une zone DNS
 slug: delegation-dune-zone-dns
-authors: Romain Guichard, Kevin Lefevre
+authors: Romain Guichard
+about_author: Romain Guichard est ingenieur cloud @Osones
+email: rguichard@vsense.fr
 date_published: 2013-03-04T22:41:03.000Z
 date_updated:   2014-09-02T19:05:43.000Z
-tags: Bind, DNS
+tags: bind, DNS, zones, delegation, sous-zone
 ---
 
 
@@ -66,7 +68,7 @@ Plusieurs choses ici. La partie sur les hosts de france.fr n’a rien de particu
 
 La partie sur les subzones est celle nous permettant d’effectuer cette délégation. Nous redéfinissons dans un premier temps la variable ORIGIN pour le sous-domaine. Cela permet d’utiliser le symbole @. Puis nous effectuons un enregistrement de type GLUE, on défini les serveurs NS du sous-domaine, puis on donne une adresse IP à ces serveurs.
 
-Il nous reste maintenant à construire notre zone paris.france.fr dans lequel on défini simplement les NS du domaines.
+Il nous reste maintenant à construire notre zone paris.france.fr dans lequel on défini simplement les NS du domaine.
 
 ```
 ### **La zone paris.france.fr**
@@ -89,4 +91,4 @@ ns2             IN      A       5.6.7.8
 ns2             IN      AAAA    2001::2
 ```
 
-On teste rapidement le fichier named.conf et les fichiers de zone pour voir si on a pas fait de fautes de frappes, on recharge la configuration de BIND, et voilà !
+On teste rapidement le fichier named.conf et les fichiers de zone pour voir si on a pas fait de fautes de frappe, on recharge la configuration de BIND, et voilà !

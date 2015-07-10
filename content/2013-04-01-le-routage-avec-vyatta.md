@@ -1,7 +1,9 @@
 ---
 title: Le routage avec Vyatta
 slug: le-routage-avec-vyatta
-authors: Romain Guichard, Kevin Lefevre
+authors: Romain Guichard
+about_author: Romain Guichard est ingenieur cloud @Osones
+email: rguichard@vsense.fr
 date_published: 2013-04-01T17:32:09.000Z
 date_updated:   2014-08-28T23:05:02.000Z
 tags: Routage, sdn, tuto, VMware, VMware, Vyatta, Vyatta, vyos

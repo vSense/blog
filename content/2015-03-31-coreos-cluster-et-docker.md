@@ -1,7 +1,7 @@
 ---
 title: CoreOS, cluster et docker
 authors: Romain Guichard
-about_author: Romain Guichard est ingenieur cloud @osones
+about_author: Romain Guichard est ingenieur cloud @Osones
 email: rguichard@vsense.fr
 slug: coreos-cluster-et-docker
 date_published: 2015-03-31T16:54:10.000Z

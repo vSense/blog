@@ -1,6 +1,8 @@
 ---
 title: Comparaison Citrix ICA et RDP
-authors: Romain Guichard, Kevin Lefevre
+authors: Kevin Lefevre
+about_author: Kevin Lefevre est ingenieur cloud @Osones
+email: klefevre@vsense.fr
 slug: comparaison-citrix-ica-et-rdp
 date_published: 2013-03-04T23:02:28.000Z
 date_updated:   2015-06-28T17:20:19.000Z

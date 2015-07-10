@@ -1,10 +1,12 @@
 ---
 title: Design de baie - Visio template
 authors: Kevin Lefevre
+about_author: Kevin Lefevre est ingenieur cloud @Osones
+email: klefevre@vsense.fr
 slug: design-de-baie-visio-templates
 date_published: 2013-11-12T15:01:50.000Z
 date_updated:   2015-06-28T17:19:56.000Z
-tags: 1D, datacentre, design, shape, template, visio
+tags: 1D, datacentre, design, shape, template, visio, schema
 ---
 
 

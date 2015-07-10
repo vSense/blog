@@ -1,6 +1,8 @@
 ---
 title: OpenStack, bien commencer
 authors: Romain Guichard
+about_author: Romain Guichard est ingenieur cloud @osones
+email: rguichard@vsense.fr
 slug: openstack-bien-commencer
 date_published: 2014-09-06T16:30:34.000Z
 date_updated:   2014-08-29T16:54:19.000Z
