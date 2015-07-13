@@ -1,8 +1,8 @@
 ---
 title: MAJ Vyatta 6.5 et Proxy NDP
 authors: Romain Guichard, Kevin Lefevre
-about_author: Romain et Kevin sont ingenieurs cloud @Osones
-email: rguichard@vsense.fr - klefevre@vsense.fr
+about_author: Kevin Lefevre est ingenieur cloud @Osones
+email: klefevre@vsense.fr
 slug: maj-vyatta-6-5-et-proxy-ndp
 date_published: 2013-01-01T23:22:49.000Z
 date_updated:   2014-09-02T19:07:39.000Z
