@@ -7,6 +7,7 @@ slug: configuration-et-routage-son-score-ipv6-ovh-avec-vyatta
 date_published: 2013-03-04T22:09:24.000Z
 date_updated:   2014-08-31T12:17:04.000Z
 tags: IPv6, NDP, ndppd, OVH, Proxy, Vyatta
+category: Réseau
 ---
 
 

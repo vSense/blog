@@ -7,6 +7,7 @@ slug: architecture-ovh
 date_published: 2013-03-24T18:18:12.000Z
 date_updated:   2014-08-29T17:09:04.000Z
 tags: ESXi, Kimsufi, OVH, VMware, Vyatta
+category: Réseau
 ---
 
 

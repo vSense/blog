@@ -7,6 +7,7 @@ slug: maj-vyatta-6-5-et-proxy-ndp
 date_published: 2013-01-01T23:22:49.000Z
 date_updated:   2014-09-02T19:07:39.000Z
 tags: IPv6, NDP, ndppd, OVH, Vyatta
+category: Réseau
 ---
 
 

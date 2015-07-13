@@ -7,6 +7,7 @@ slug: tunnel-openvpn-avec-vyatta
 date_published: 2013-04-01T17:19:39.000Z
 date_updated:   2015-06-28T17:20:20.000Z
 tags: OpenVPN, OVH, Vyatta
+category: Réseau
 ---
 
 

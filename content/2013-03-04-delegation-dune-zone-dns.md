@@ -7,6 +7,7 @@ email: rguichard@vsense.fr
 date_published: 2013-03-04T22:41:03.000Z
 date_updated:   2014-09-02T19:05:43.000Z
 tags: bind, DNS, zones, delegation, sous-zone
+category: Système
 ---
 
 
