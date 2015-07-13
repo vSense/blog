@@ -1,6 +1,6 @@
 ---
-title: OpenStack avec MAAS et JuJu LO
-authors: Romain Guichard, Kevin Lefevre
+title: OpenStack avec MAAS et JuJu
+authors: Romain Guichard
 about_author: Romain Guichard est ingenieur cloud @Osones
 Email: rguichard@vsense.fr
 slug: openstack-avec-maas-et-juju

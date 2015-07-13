@@ -1,8 +1,8 @@
 ---
 title: Configuration et routage de son scope IPv6 avec Vyatta
 authors: Romain Guichard, Kevin Lefevre
-about_author: Romain et Kevin sont ingenieurs cloud @Osones
-email: rguichard@vsense.fr - klefevre@vsense.fr
+about_author: Kevin est ingenieur cloud @Osones
+email: klefevre@vsense.fr
 slug: configuration-et-routage-son-score-ipv6-ovh-avec-vyatta
 date_published: 2013-03-04T22:09:24.000Z
 date_updated:   2014-08-31T12:17:04.000Z

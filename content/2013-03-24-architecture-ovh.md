@@ -1,8 +1,8 @@
 ---
 title: Architecture OVH
 authors: Romain Guichard, Kevin Lefevre
-about_author: Romain et Kevin sont ingenieurs cloud @Osones
-email: rguichard@vsense.fr - klefevre@vsense.fr
+about_author: Romain Guichard est ingenieur cloud @Osones
+email: rguichard@vsense.fr
 slug: architecture-ovh
 date_published: 2013-03-24T18:18:12.000Z
 date_updated:   2014-08-29T17:09:04.000Z

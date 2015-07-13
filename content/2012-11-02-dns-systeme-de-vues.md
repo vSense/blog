@@ -1,8 +1,8 @@
 ---
 title: DNS - Système de vues
 authors: Romain Guichard, Kevin Lefevre
-about_author: Romain et Kevin sont ingenieurs cloud @Osones
-email: rguichard@vsense.fr - klefevre@vsense.fr
+about_author: Romain Guichard est ingenieur cloud @Osones
+email: rguichard@vsense.fr
 slug: dns-views
 lang: fr
 date_published: 2012-11-02T01:05:51.000Z
