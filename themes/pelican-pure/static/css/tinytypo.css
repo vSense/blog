@@ -690,9 +690,6 @@ a {
 a:link {
   transition: .5s;
 }
-a:visited {
-  color: inherit;
-}
 a:focus {
   outline: thin dotted;
   background: #222222 !important;

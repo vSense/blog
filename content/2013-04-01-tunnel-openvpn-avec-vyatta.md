@@ -1,12 +1,13 @@
 ---
 title: Tunnel OpenVPN avec Vyatta
 authors: Romain Guichard, Kevin Lefevre
-about_author: Romain et Kevin sont ingenieurs cloud @Osones
+about_author: Romain Guichard est ingenieur cloud @Osones
 email: rguichard@vsense.fr
 slug: tunnel-openvpn-avec-vyatta
 date_published: 2013-04-01T17:19:39.000Z
 date_updated:   2015-06-28T17:20:20.000Z
 tags: OpenVPN, OVH, Vyatta
+category: Réseau
 ---
 
 
