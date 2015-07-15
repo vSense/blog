@@ -690,13 +690,13 @@ a {
 a:link {
   transition: .5s;
 }
-a:focus {
-  outline: thin dotted;
-  background: #222222 !important;
-  border-color: #222222 !important;
-  color: #f8f8f8 !important;
-  text-shadow: none;
-}
+/*a:focus {*/
+/*  outline: thin dotted;*/
+/*  background: #222222 !important;*/
+/*  border-color: #222222 !important;*/
+/*  color: #f8f8f8 !important;*/
+/*  text-shadow: none;*/
+/*}*/
 a:hover {
   outline: 0;
   cursor: pointer;
