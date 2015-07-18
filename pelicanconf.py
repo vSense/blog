@@ -40,8 +40,7 @@ SUMMARY_MAX_LENGTH = 50
 
 # Social widget
 SOCIAL = (('github-square', 'https://github.com/vSense'),
-        ('twitter-square', 'https://twitter.com/ArchiFleKs'),
-        ('twitter-square','https://twitter.com/HerrGuichard'),)
+        ('rss-square', 'http://blog.vsense.fr/feeds/all.atom.xml'))
 
 DEFAULT_PAGINATION = 10
 
