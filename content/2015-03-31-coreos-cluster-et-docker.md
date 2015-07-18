@@ -87,6 +87,7 @@ Tout d’abord un fichier cloud-config commence toujours par #cloud-config et vi
                 Gateway=10.0.0.254
 ```
 
+
 Quelques petites explications. Comme VMware n’offre pas les mêmes possibilités qu’un cloud public comme DigitalOcean ou une infra OpenStack, on est obligé de s’adapter. On voit dans mes units que je désactive le dhcp. Par défaut CoreOS utilise bien évidemment son DHCP, mais le problème est que j’ai besoin de connaître cette IP pour la donner à etcd. Dans un cas « normal », il faut laisser le DHCP fonctionner et remplacer votre IP dans « addr » et « peer-addr » par « $private_ip ». Cette variable sera automatiquement remplacé par votre IP, mais pas chez VMware ^^. Donc on triche, on enlève le DHCP, on force une IP sur notre interface et on l’annonce dans etcd.
 
 A noter que du fait de l’impossibilité d’utiliser cette variable et de fixer une IP, ce cloud-config n’est pas commun à tous nos noeuds, il faudra en créer un par noeud en changeant l’IP là où c’est nécessaire.
