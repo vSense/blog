@@ -8,6 +8,7 @@ date_published: 2014-08-28T17:19:42.000Z
 date_updated:   2015-06-28T17:19:42.000Z
 tags: pelican, markdown, blog, github
 category: Misc
+Status: draft
 ---
 
 Le blog vSense tournait jusqu'à présent sur une base de Wordpress et était
