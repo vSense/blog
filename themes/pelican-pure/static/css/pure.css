@@ -1,6 +1,7 @@
 @import url("fonts.css");
 @import url("tinytypo.css");
 @import url("pygment.css");
+@import url("fontcustom.css");
 
 * {
     -webkit-box-sizing: border-box;
