@@ -41,9 +41,10 @@ SUMMARY_MAX_LENGTH = 50
 
 # Social widget
 SOCIAL = (('github-square', 'https://github.com/vSense'),
+        ('docker', 'https://registry.hub.docker.com/repos/vsense/'),
         ('rss-square', 'feeds/all.atom.xml'))
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
