@@ -39,13 +39,9 @@ SUMMARY_MAX_LENGTH = 50
 #         ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('github-square', 'https://github.com/vSense'),
-<<<<<<< HEAD
-        ('rss-square', 'http://blog.vsense.fr/feeds/all.atom.xml'))
-=======
+SOCIAL = (('github-alt', 'https://github.com/vSense'),
         ('docker', 'https://registry.hub.docker.com/repos/vsense/'),
-        ('rss-square', 'feeds/all.atom.xml'))
->>>>>>> 90bc277... add docker-icon in the sidebar and make links relative
+        ('rss', 'feeds/all.atom.xml'))
 
 DEFAULT_PAGINATION = 10
 
