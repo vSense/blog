@@ -9,6 +9,10 @@ SITEURL = 'http://blog.vsense.fr'
 PATH = 'content'
 
 TIMEZONE = 'Europe/Paris'
+DATE_FORMAT = {
+        'fr': '%d %B %Y'
+        }
+LOCALE = 'fr_FR'
 
 DEFAULT_LANG = 'fr'
 THEME = 'themes/pelican-pure'
