@@ -5,9 +5,10 @@ about_author: Romain Guichard est ingenieur cloud @Osones
 Email: rguichard@vsense.fr
 slug: openstack-avec-maas-et-juju
 lang: fr
-date: 2015-07-20
+date: 2014-08-14
 tags: cloud, déploiement, juju, maas, openstack, sdn, ubuntu
 category: Cloud
+Summary: OpenStack est loin d'être simple à monter "à la main", il existe néanmoins des solutions comme MAAS et Juju permettant de monter une infrastructure OpenStack fonctionnelle en un temps record. Avec des outils de gestion de configuration comme Puppet ou Ansible, c'est le package gagnant pour  monter une infrastructure OpenStack
 ---
 
 
