@@ -4,10 +4,12 @@ authors: Romain Guichard
 about_author: Romain Guichard est ingenieur cloud @Osones
 Email: rguichard@vsense.fr
 slug: blog-static-pelican
+lang: fr
 date_published: 2014-08-28T17:19:42.000Z
 date_updated:   2015-06-28T17:19:42.000Z
 tags: pelican, markdown, blog, github
 category: Misc
+summary: Pelican est un générateur de blog statique écrit en Python vous permettant d'écrire vos articles au format markdown. Il s'agit de la solution utilisée sur vSense pour générer notre nouveau blog. En plus de sa simplicité, celui peut être complété par un nombre important de plugins et de thèmes. Ce billet sera suivi d'un deuxième visant à présenter la migration du blog chez Amazon Web Services
 ---
 
 Le blog vSense tournait jusqu'à présent sur une base de Wordpress et était
@@ -94,7 +96,20 @@ category: Misc
 ---
 ```
 
+Pour le reste, vous pouvez tout simplement écrire votre article en y ajoutant la
+syntaxe Markdown là où vous en avez besoin.
+
 Vous devez ensuite générer vos pages html avec la commande `make html` et vous
 pourrez consulter votre site en local (sur le port 8000)  en lançant un serveur web avec `make
 serve`. Vous pouvez tout aussi bien lancer un navigateur web pointant sur le
-dossier output généré lors du *make html*.
+dossier output généré lors du `make html`.
+
+[rajoute disqus ici]
+
+Il est finalement assez simple d'utiliser Pelican pour générer un blog statique.
+Le PHP devient quelque chose de parfaitement évitable maintenant que tout peut
+être obtenir via du javascript.
+
+Nous détaillerons dans un autre billet la migration du blog depuis notre serveur
+OVH vers Amazon Web Services. Nous verrons comment obtenir un site résilient,
+anycasté pour un prix dérisoire.
