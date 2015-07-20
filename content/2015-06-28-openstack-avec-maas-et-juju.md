@@ -4,8 +4,8 @@ authors: Romain Guichard
 about_author: Romain Guichard est ingenieur cloud @Osones
 Email: rguichard@vsense.fr
 slug: openstack-avec-maas-et-juju
-date_published: 2014-08-28T17:19:42.000Z
-date_updated:   2015-06-28T17:19:42.000Z
+lang: fr
+date: 2015-07-20
 tags: cloud, déploiement, juju, maas, openstack, sdn, ubuntu
 category: Cloud
 ---
@@ -114,6 +114,7 @@ Exemple chez moi :
 La configuration de Juju se trouve dans ~/.juju/environments.yaml. Supprimez tout ce qui s’y trouve et ajoutez ceci :
 
 ```
+# ~/.juju/environments.yaml
 environments:
     maas-vsense:
         type: maas

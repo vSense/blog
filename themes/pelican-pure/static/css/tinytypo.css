@@ -142,6 +142,7 @@ h1,
   font-size: 2em;
   line-height: 1.5;
   margin-bottom: .75em;
+  text-align: left;
 }
 h2,
 .h2 {
@@ -539,8 +540,8 @@ kbd,
 samp,
 var,
 tt {
-  font-family: "Source Sans Pro", monospace;
-  font-size: 1em;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 0.9em;
 }
 pre {
   white-space: pre-wrap;
