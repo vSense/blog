@@ -39,15 +39,9 @@ SUMMARY_MAX_LENGTH = 50
 #         ('You can modify those links in your config file', '#'),)
 
 # Social widget
-<<<<<<< HEAD
-SOCIAL = (('github-square', 'https://github.com/vSense'),
-        ('linkedin-square', 'https://www.linkedin.com/in/kevinlefevre'),
-        ('linkedin-square', 'https://fr.linkedin.com/in/romainguichard'),)
-=======
 SOCIAL = (('github-alt', 'https://github.com/vSense'),
         ('docker', 'https://registry.hub.docker.com/repos/vsense/'),
         ('rss', 'feeds/all.atom.xml'))
->>>>>>> 85dc102bcf8aceb48ccfa2cefd4ac85fd0ea4934
 
 DEFAULT_PAGINATION = 10
 
