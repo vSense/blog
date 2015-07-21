@@ -7,6 +7,7 @@ slug: ssh-over-https
 date_published: 2013-11-14T14:49:03.000Z
 date_updated:   2014-09-02T19:09:37.000Z
 tags: apache, https, mod_proxy, nginx, reverse proxy, shell, shellinabox, ssh
+category: Système
 ---
 
 

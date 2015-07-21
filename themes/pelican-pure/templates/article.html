@@ -38,7 +38,7 @@
                 <header class="post-header">
                     <h1>{{ article.title }}</h1>
                         <p class="post-meta">
-                            // under {% for tag in article.tags %}
+                            # tags : {% for tag in article.tags %}
                                 <a class="post-category" href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>
                             {% endfor %}
                         </p>

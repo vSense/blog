@@ -7,6 +7,7 @@ slug: fortigate-source-routing-wan-failover
 date_published: 2015-03-24T11:48:00.000Z
 date_updated:   2015-06-28T17:19:21.000Z
 tags: failover, fortigate, fortinet, pbr, Routage
+category: Réseau
 ---
 
 Quand on dispose d’une petite infrastructure on est parfois limité par notre matériel pour obtenir une résilience suffisante.

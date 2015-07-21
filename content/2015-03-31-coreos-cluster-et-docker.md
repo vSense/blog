@@ -7,6 +7,7 @@ slug: coreos-cluster-et-docker
 date_published: 2015-03-31T16:54:10.000Z
 date_updated:   2015-04-02T10:10:15.000Z
 tags: cloud, cloud-config, cluster, container, coreos, docker, etcd, fleet
+category: Cloud
 ---
 
 CoreOS est une distribution Linux minimaliste. Son but est de permettre le déploiement massif de services en intégrant nativement des outils comme fleet pour la gestion des clusters et docker pour la gestion des applications.
@@ -85,6 +86,7 @@ Tout d’abord un fichier cloud-config commence toujours par #cloud-config et vi
                 Address=10.0.0.100/24        
                 Gateway=10.0.0.254
 ```
+
 
 Quelques petites explications. Comme VMware n’offre pas les mêmes possibilités qu’un cloud public comme DigitalOcean ou une infra OpenStack, on est obligé de s’adapter. On voit dans mes units que je désactive le dhcp. Par défaut CoreOS utilise bien évidemment son DHCP, mais le problème est que j’ai besoin de connaître cette IP pour la donner à etcd. Dans un cas « normal », il faut laisser le DHCP fonctionner et remplacer votre IP dans « addr » et « peer-addr » par « $private_ip ». Cette variable sera automatiquement remplacé par votre IP, mais pas chez VMware ^^. Donc on triche, on enlève le DHCP, on force une IP sur notre interface et on l’annonce dans etcd.
 

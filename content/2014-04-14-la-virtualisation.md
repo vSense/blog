@@ -7,6 +7,7 @@ slug: la-virtualisation
 date_published: 2014-04-14T17:16:29.000Z
 date_updated:   2015-06-28T17:19:51.000Z
 tags: hyperviseur, virtualisation
+category: Virtualisation
 ---
 
 
