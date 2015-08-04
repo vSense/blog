@@ -8,6 +8,7 @@ date_published: 2015-03-31T16:54:10.000Z
 date_updated:   2015-04-02T10:10:15.000Z
 tags: cloud, cloud-config, cluster, container, coreos, docker, etcd, fleet
 category: Cloud
+Summary: CoreOS est une distribution linux minimaliste complètement orientée vers Docker. Elle permet grâce à des outils nativement intégrés de monter des clusters qui feront tourner des containers Docker orchestrés et schédulés. CoreOS est un host Docker de référence.
 ---
 
 CoreOS est une distribution Linux minimaliste. Son but est de permettre le déploiement massif de services en intégrant nativement des outils comme fleet pour la gestion des clusters et docker pour la gestion des applications.

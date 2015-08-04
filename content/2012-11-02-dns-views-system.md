@@ -5,6 +5,7 @@ lang: en
 date_published: 2012-11-02T01:05:51.000Z
 date_updated:   2014-04-14T16:21:19.000Z
 tags: Bind, Bind, debian, debian, DNS, DNS, domain, views
+Status: draft
 ---
 
 

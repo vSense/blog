@@ -1,16 +1,13 @@
 ---
-title: Génération de blog avec Pelican
+title: Hébergement d'un site statique
 authors: Romain Guichard
 about_author: Romain Guichard est ingenieur cloud @Osones
 Email: rguichard@vsense.fr
-slug: blog-static-pelican
-lang: fr
-date_published: 2014-08-28T17:19:42.000Z
-date_updated:   2015-06-28T17:19:42.000Z
-tags: pelican, markdown, blog, github
+slug: hebergement-avec-aws-s3-et-aws-cloudfront
+lang: en
+date_published: 2015-0-21T17:19:42.000Z
+tags: codeship, ci, amazon, S3, cloudfront, cloud, blog, cdn, object storage
 category: Misc
-Status: draft
-summary: Pelican est un générateur de blog statique écrit en Python vous permettant d'écrire vos articles au format markdown. Il s'agit de la solution utilisée sur vSense pour générer notre nouveau blog. En plus de sa simplicité, celui peut être complété par un nombre important de plugins et de thèmes. Ce billet sera suivi d'un deuxième visant à présenter la migration du blog chez Amazon Web Services
 ---
 
 Le blog vSense tournait jusqu'à présent sur une base de Wordpress et était

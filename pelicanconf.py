@@ -9,6 +9,10 @@ SITEURL = 'http://blog.vsense.fr'
 PATH = 'content'
 
 TIMEZONE = 'Europe/Paris'
+DATE_FORMAT = {
+        'fr': '%d %B %Y'
+        }
+LOCALE = 'fr_FR'
 
 DEFAULT_LANG = 'fr'
 THEME = 'themes/pelican-pure'
@@ -19,10 +23,10 @@ GOOGLE_ANALYTICS = 'UA-33687380-2'
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['gravatar','share_post', 'feed_summary']
 
-SUMMARY_MAX_LENGTH = 40
-
 TAGLINE = "Cloud Cloud Cloud, I'm looking for a good time !"
-PROFILE_IMAGE_URL = 'http://i.forbesimg.com/media/lists/companies/google_416x416.jpg'
+#PROFILE_IMAGE_URL = 'http://i.forbesimg.com/media/lists/companies/google_416x416.jpg'
+
+DISPLAY_PAGES_ON_MENU = True
 
 # Feed generation is usually not desired when developing
 #FEED_ALL_ATOM = None
@@ -31,12 +35,11 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 FEED_USE_SUMMARY = True
-SUMMARY_MAX_LENGTH = 50
+SUMMARY_MAX_LENGTH = 40
+
 # Blogroll
-#LINKS = (('Pelican', 'http://getpelican.com/'),
-#         ('Python.org', 'http://python.org/'),
-#         ('Jinja2', 'http://jinja.pocoo.org/'),
-#         ('You can modify those links in your config file', '#'),)
+#MENUITEMS = (('Pelican', 'http://getpelican.com/'),
+#            ('test', 'http://youtube.com'))
 
 # Social widget
 SOCIAL = (('github-alt', 'https://github.com/vSense'),

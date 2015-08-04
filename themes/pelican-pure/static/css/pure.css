@@ -39,11 +39,12 @@ pre {
     box-shadow: 2px 2px 2px #888;
 }
 */
+
 pre {
-    /*font-family: 'Source Code Pro',monospace;*/
+    font-family: 'Source Code Pro',monospace;
     background: none repeat scroll 0 0 #F0F0F0;
     border-radius: 2px;
-    font-size: 110%;
+    font-size: 0.9em;
     font-style: normal;
     letter-spacing: 0.015em;
     line-height: 130%;
@@ -51,7 +52,7 @@ pre {
     white-space: pre-wrap;
     word-wrap: break-word;
     padding: 15px 15px 15px 15px;
-    box-shadow: 2px 2px 2px #888;
+    /*box-shadow: 2px 2px 2px #888;*/
 }
 
 .sidebar {
@@ -222,7 +223,7 @@ pre {
     letter-spacing: -1px;
 }
 .post-meta {
-    color: #93a1a1;
+    color: #383838;
     font-size: 90%;
     margin-top: -10px;
 }
@@ -312,7 +313,7 @@ pre {
 }
 
 .highlight pre {
-    font-size: 75%;
+    font-size: 0.9em;
 }
 
 /* LAYOUT CSS */

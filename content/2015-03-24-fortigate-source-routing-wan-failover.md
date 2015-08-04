@@ -8,6 +8,7 @@ date_published: 2015-03-24T11:48:00.000Z
 date_updated:   2015-06-28T17:19:21.000Z
 tags: failover, fortigate, fortinet, pbr, Routage
 category: Réseau
+summary: Exercie rapide sur la mise en place d'une double liason WAN avec QoS et failover sur un firewall Fortigate dans le cas d'une architecture réseau lowcost
 ---
 
 Quand on dispose d’une petite infrastructure on est parfois limité par notre matériel pour obtenir une résilience suffisante.
