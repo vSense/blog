@@ -7,6 +7,7 @@ slug: hebergement-avec-aws-s3-et-aws-cloudfront
 lang: en
 date_published: 2015-0-21T17:19:42.000Z
 tags: codeship, ci, amazon, S3, cloudfront, cloud, blog, cdn, object storage
+Status: draft
 category: Misc
 ---
 
