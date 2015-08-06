@@ -250,6 +250,15 @@ pre {
 }
 
 .avatar {
+/*    float: right; */
+    border-radius: 50px;
+    margin-left: 16px;
+    margin-top: 7px;
+    width: 70px;
+    height: 70px;
+}
+
+.avatar-index {
     float: right;
     border-radius: 50px;
     margin-left: 16px;
@@ -345,6 +354,11 @@ pre {
     }
 
     .avatar {
+        width: 45px;
+        height: 45px;
+    }
+
+    avatar-index {
         width: 45px;
         height: 45px;
     }
