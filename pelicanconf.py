@@ -18,7 +18,7 @@ DEFAULT_LANG = 'fr'
 THEME = 'themes/pelican-pure'
 
 DISQUS_SITENAME = 'vsense'
-GOOGLE_ANALYTICS = 'UA-33687380-2'
+GOOGLE_ANALYTICS = 'UA-70028754-1'
 
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['gravatar','share_post', 'feed_summary']

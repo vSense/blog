@@ -1,5 +1,5 @@
 ---
-title: "FreeRADIUS OpenLDAP authentification : customs vendor-attributes, Brocade FabricOS - Cisco NX-OS - IOS"
+title: FreeRADIUS OpenLDAP authentification : customs vendor-attributes, Brocade FabricOS - Cisco NX-OS - IOS
 authors: Kevin Lefevre
 about_author: Kevin Lefevre est ingenieur cloud @Osones
 email: klefevre@vsense.fr
