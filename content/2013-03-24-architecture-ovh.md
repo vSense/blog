@@ -119,15 +119,16 @@ Commençons par enlever la partie de la configuration faisant bugger notre archi
 
 Maintenant on va refaire la même chose, mais avec les commandes Debian. Elles sont toujours accessibles sous Vyatta. En revanche vous allez devoir vous loguer en root (su -). Les commandes sont les mêmes entre les deux users, mais celles de Vyatta ne sont accessibles que depuis l’user « vyatta », sous « root » on ne sera pas gêné au moins.
 
-`route add **gateway_du_dédié** dev eth2 route add default gw **gateway_du_dédié**`
+`ip route add <gateway_du_dédié> dev <iface>`
+`ip route add default gw <gateway_du_dédié>`
 
 Le principe reste le même, on précise comment atteindre l’IP de la gateway de l’ESX et ensuite on annonce que cette IP est la passerelle de la VM bridgée. Voici la table de routage obtenue après modifications :
 
-`vyatta@vyatta:~$ ip route default via 94.23.6.254 dev eth2 94.23.6.254 dev eth2  scope link`
+`vyatta@vyatta:~$ ip route default via 94.xx.xx.254 dev eth2 scope link`
 
 Evidemment c’est une conf qui va sauter au prochain redémarrage. Il faut appliquer ces modifications juste après le chargement de la configuration de Vyatta.
 
-Dans la version 6.5, il y’a un fichier  */config/scripts/vyatta-postconfig-bootup.script* qui est comme son nom l’indique exécuté juste après le chargement de la configuration. Placez les deux commandes *route* dans ce script. Rebooter et vérifier que votre table arp ne se rempli pas constamment (arp -a)
+Dans la version 6.5, il y’a un fichier  _/config/scripts/vyatta-postconfig-bootup.script_ qui est comme son nom l’indique exécuté juste après le chargement de la configuration. Placez les deux commandes *route* dans ce script. Rebooter et vérifier que votre table arp ne se remplie pas constamment (arp -a)
  Les problèmes de flood ARP ont bien été résolus une fois ces manipulations effectuées. Dommage que Vyatta ne propose rien actuellement pour régler ce problème.
 
 
