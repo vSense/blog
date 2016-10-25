@@ -8,5 +8,5 @@ image_resource:
     repository: alpine
     tag: latest
 run:
-  path: pwd
-# args: ["-l", "/"]
+  path: ls
+ args: ["-lR"]
