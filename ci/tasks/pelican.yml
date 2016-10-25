@@ -5,10 +5,11 @@ platform: linux
 image_resource:
   type: docker-image
   source:
-    repository: alpine
+    repository: vsense/pelican-ci
     tag: latest
 inputs:
   - name: blog
+outputs:
+  - name: out
 run:
-  path: ls
-  args: ["-lR"]
+  path: blog/ci/tasks/script.sh
