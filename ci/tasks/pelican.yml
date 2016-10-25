@@ -9,4 +9,4 @@ image_resource:
     tag: latest
 run:
   path: ls
-  args: ["-lR", "blog"]
+  args: ["-l", "/"]
