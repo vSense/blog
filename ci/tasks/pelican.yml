@@ -7,6 +7,8 @@ image_resource:
   source:
     repository: alpine
     tag: latest
+inputs:
+  - name: blog
 run:
   path: ls
- args: ["-lR"]
+  args: ["-lR"]
