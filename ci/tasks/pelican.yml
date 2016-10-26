@@ -9,5 +9,7 @@ image_resource:
     tag: latest
 inputs:
   - name: blog
+outputs:
+  - name: out
 run:
   path: blog/ci/tasks/script.sh
