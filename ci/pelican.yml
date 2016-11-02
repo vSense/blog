@@ -12,4 +12,4 @@ inputs:
 outputs:
   - name: out
 run:
-  path: blog/ci/tasks/script.sh
+  path: blog/ci/script.sh
